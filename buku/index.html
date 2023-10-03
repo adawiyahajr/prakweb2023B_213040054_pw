@@ -1,0 +1,152 @@
+<?php
+// koneksi database
+mysqli_connect("localhost", "root" "", "prakweb2023b_213040054");
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman admin</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+
+    <h1>Daftar Buku</h1>
+
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>No</th>
+            <th>Aksi</th>
+            <th>Gambar</th>
+            <th>Judul buku</th>
+            <th>Pengarang</th>
+            <th>Tahun terbit</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/bumi.jpg" width="80"></td>
+            <td>Bumi</td>
+            <td>Tereliye</td>
+            <td>2014</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/pulang.jpg" width="80"></td>
+            <td>Pulang</td>
+            <td>Tereliye</td>
+            <td>2015</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/sebuah seni.jpg" width="80"></td>
+            <td>Sebuah seni untuk bersikap bodoamat</td>
+            <td>Mark manson</td>
+            <td>2016</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/dear allah.jpg" width="80"></td>
+            <td>Dear allah</td>
+            <td>Diana febriantria</td>
+            <td>2018</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/sukses sidang skripsi.jpg" width="80"></td>
+            <td>Sukses sidang skripsi</td>
+            <td>Ezra alfatah</td>
+            <td>2022</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/dear nathan.jpg" width="80"></td>
+            <td>Dear nathan</td>
+            <td>Erisca febriani</td>
+            <td>2016</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/dikta & hukum.jpg" width="80"></td>
+            <td>Dikta & hukum</td>
+            <td>Dhia'an farah</td>
+            <td>2021</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/cantik itu luka.jpg" width="80"></td>
+            <td>Cantik itu luka</td>
+            <td>Eka kurniawan</td>
+            <td>2002</td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/Perahu Kertas.jpg" width="80"></td>
+            <td>Perahu kertas</td>
+            <td>Dee lestari</td>
+            <td>2008</td>
+        </tr>
+
+        <tr>
+            <td>10</td>
+            <td>
+                <a href="" class="btn btn-danger" type="button">ubah</a> |
+                <a href="" class="btn btn-primary" type="button">hapus</a>
+            </td>
+            <td><img src="img/laskar pelangi.jpg" width="80"></td>
+            <td>Laskar pelangi</td>
+            <td>Andrea hirata</td>
+            <td>2005</td>
+        </tr>
+
+    </table>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</html>
